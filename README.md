@@ -1,4 +1,4 @@
-# BrazClean 🧹✨
+# BrazClean
 
 Website moderno e responsivo para empresa de limpeza residencial e comercial, desenvolvido com React + Vite.
 
@@ -6,30 +6,30 @@ Website moderno e responsivo para empresa de limpeza residencial e comercial, de
 
 BrazClean é uma aplicação web completa que oferece uma experiência profissional para clientes que buscam serviços de limpeza. O site apresenta os serviços oferecidos, permite contato direto via WhatsApp e formulário de e-mail integrado.
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-### 🎨 Interface Moderna
+### Interface Moderna
 - Design responsivo desenvolvido com **Tailwind CSS**
 - Animações suaves e transições elegantes
 - Layout otimizado para dispositivos móveis e desktop
 
-### 🎠 Carrossel de Imagens
+### Carrossel de Imagens
 - Carrossel interativo implementado com **React Slick**
 - Navegação automática e manual entre slides
 - Exibição de serviços e depoimentos
 
-### 📧 Formulário de Contato
+### Formulário de Contato
 - Integração com **EmailJS** para envio de e-mails
 - Validação de campos em tempo real
 - Feedback visual de envio (sucesso/erro)
 - Não requer backend próprio
 
-### 💬 Botão WhatsApp Flutuante
+### Botão WhatsApp Flutuante
 - Componente **WhatsAppButton** fixo e acessível
 - Redirecionamento direto para conversa no WhatsApp
 - Design responsivo com ícone personalizado
 
-### 📱 Componentes Principais
+### Componentes Principais
 - **Header**: Navegação principal com menu responsivo
 - **Hero**: Seção de destaque com carrossel de imagens
 - **Services**: Apresentação dos serviços oferecidos
@@ -37,7 +37,7 @@ BrazClean é uma aplicação web completa que oferece uma experiência profissio
 - **Footer**: Informações de contato e redes sociais
 - **WhatsAppButton**: Botão flutuante para contato direto
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **React 18** - Biblioteca JavaScript para construção de interfaces
 - **Vite** - Build tool moderna e rápida
@@ -47,7 +47,7 @@ BrazClean é uma aplicação web completa que oferece uma experiência profissio
 - **EmailJS** - Serviço de envio de e-mails sem backend
 - **React Icons** - Biblioteca de ícones
 
-## 📦 Pré-requisitos
+## Pré-requisitos
 
 Antes de começar, certifique-se de ter instalado:
 
@@ -86,9 +86,9 @@ cp .env.example .env
 Edite o arquivo `.env` e adicione suas credenciais do EmailJS:
 
 ```env
-VITE_EMAILJS_SERVICE_ID=seu_service_id
-VITE_EMAILJS_TEMPLATE_ID=seu_template_id
-VITE_EMAILJS_PUBLIC_KEY=sua_public_key
+VITE_SERVICE_ID=seu_service_id
+VITE_TEMPLATE_ID=seu_template_id
+VITE_PUBLIC_KEY=sua_public_key
 ```
 
 #### Como obter as credenciais do EmailJS:
@@ -142,7 +142,7 @@ BrazClean/
 └── README.md                   # Este arquivo
 ```
 
-## 🎯 Funcionalidades Detalhadas
+## Funcionalidades Detalhadas
 
 ### Carrossel de Imagens (Hero Component)
 
@@ -172,7 +172,7 @@ BrazClean/
 - Link direto para conversa no WhatsApp
 - Número configurável
 
-## 🎨 Customização
+## Customização
 
 ### Cores e Estilos
 
@@ -197,7 +197,7 @@ Edite os componentes em `src/components/` para personalizar:
 - Serviços oferecidos
 - Informações de contato
 
-## 🌐 Deploy
+## Deploy
 
 ### Vercel (Recomendado)
 
@@ -213,7 +213,7 @@ Edite os componentes em `src/components/` para personalizar:
 - **Railway**
 - **Render**
 
-## 📱 Responsividade
+## Responsividade
 
 O projeto é totalmente responsivo e otimizado para:
 - 📱 Smartphones (320px+)
@@ -221,7 +221,7 @@ O projeto é totalmente responsivo e otimizado para:
 - 💻 Desktops (1024px+)
 - 🖥️ Telas grandes (1440px+)
 
-## 🤝 Contribuindo
+## Contribuindo
 
 Contribuições são bem-vindas! Sinta-se à vontade para:
 
@@ -231,17 +231,17 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abrir um Pull Request
 
-## 📄 Licença
+## Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
-## 👨‍💻 Autor
+## Autor
 
 **Felipe Dev**
 
 - GitHub: [@FelipeDevRec](https://github.com/FelipeDevRec)
 
-## 📧 Contato
+## Contato
 
 Para dúvidas ou sugestões, entre em contato através do formulário no site ou pelo WhatsApp.
 
