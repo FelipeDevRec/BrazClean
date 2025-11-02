@@ -19,7 +19,7 @@ export default function Contact(){
           <textarea placeholder="Mensagem" className="p-3 rounded border md:col-span-2" rows="4"></textarea>
           <button type="button" className="md:col-span-2 px-5 py-3 rounded bg-primary text-white">Enviar</button>
         </form>
-        <p className="mt-6 text-sm text-gray-500">Atendimento: Segunda a Sexta — 08:00 às 18:00</p>
+        <p className="mt-6 text-sm text-gray-500">Atendimento por agendamento</p>
       </div>
     </section>
   )
