@@ -6,6 +6,7 @@ export default function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
+
     emailjs.sendForm(
       import.meta.env.VITE_SERVICE_ID,     // Service ID
       import.meta.env.VITE_TEMPLATE_ID,    // Template ID
@@ -23,15 +24,15 @@ export default function Contact() {
     <section id='contact' className="p-8 bg-gray-100 rounded-lg shadow-md">
       <h3 className="text-2xl font-bold mb-4">Peça um orçamento</h3>
       <p className="mb-6">Preencha as informações abaixo e responderemos em breve.</p>
-      <form ref={form} onSubmit={sendEmail} className="grid gap-4">
-        <input
+      <form ref={form} onSubmit={sendEmail} className="max-w-md w-full mx-auto p-4 bg-white rounded shadow grid gap-4">
+        <input 
           type="text"
           name="nome"
           placeholder="Seu nome"
           required
           className="border rounded px-4 py-2"
         />
-        <input
+        <input 
           type="tel"
           name="telefone"
           placeholder="Telefone/WhatsApp"
@@ -44,7 +45,7 @@ export default function Contact() {
           <option value="Impermeabilização">Impermeabilização</option>
           <option value="Higienização">Higienização</option>
         </select>
-        <textarea
+        <textarea 
           name="descricao"
           placeholder="Descreva sua necessidade"
           required
