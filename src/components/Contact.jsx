@@ -12,7 +12,7 @@ export default function Contact() {
       form.current,
       import.meta.env.VITE_PUBLIC_KEY      // Public Key
     ).then((result) => {
-        alert('Orçamento enviado com sucesso! Obrigado pelo contato.');
+        alert('Pedido de orçamento enviado, entraremos em contato em breve! Obrigado pelo envio.');
         form.current.reset();
     }, (error) => {
         alert('Erro ao enviar orçamento. Tente novamente.');
@@ -22,8 +22,8 @@ export default function Contact() {
   return (
     <section className="bg-gray-100 py-12" id="contact">
       <div className="max-w-2xl mx-auto px-4">
-        <h3 className="text-2xl font-bold mb-4">Peça um orçamento</h3>
-        <p className="mb-6">Preencha as informações abaixo e responderemos em breve.</p>
+        <h3 className="text-2xl font-bold mb-4 text-center">Solicite o seu orçamento</h3>
+        <p className="mb-6 text-center">Preencha as informações abaixo e responderemos em breve.</p>
         <form ref={form} onSubmit={sendEmail} className="max-w-md w-full mx-auto p-4 bg-white rounded shadow grid gap-4">
           <input
             type="text"
@@ -55,7 +55,7 @@ export default function Contact() {
             Enviar Orçamento
           </button>
         </form>
-        <p className="mt-4 text-sm">Atendimento por agendamento</p>
+        <p className="mt-4 text-sm text-center">Atendimento por agendamento</p>
       </div>
     </section>
   );
